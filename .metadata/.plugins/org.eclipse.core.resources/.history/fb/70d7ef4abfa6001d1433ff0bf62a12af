@@ -1,0 +1,24 @@
+package com.jdbc_java;
+
+public class Class_forName_Howe_Work {
+	
+	public static void main(String[] args) {
+				
+		Pqr pqr=new Pqr();
+		
+		
+		
+	
+	}
+}
+
+class Pqr{
+	
+	static{
+		System.out.println("This is Static block");
+	}
+	
+	{
+		System.out.println("this is instanse block");
+	}
+}

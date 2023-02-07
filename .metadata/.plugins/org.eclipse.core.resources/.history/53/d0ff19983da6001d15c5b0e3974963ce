@@ -1,0 +1,5 @@
+package com.jdbc_java;
+
+public class Send_Data_To_Mysql_Using_java {
+
+}

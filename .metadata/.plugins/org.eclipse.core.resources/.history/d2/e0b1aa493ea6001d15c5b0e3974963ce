@@ -1,0 +1,18 @@
+package com.jdbc_java;
+
+import java.sql.*;
+
+public class Send_Data_To_Mysql_Using_java {
+	
+	public static void main(String[] args) {
+
+		String url="jdbc:mysql://localhost:3306/java_sql_connection";
+		String uname="root";
+		String pass="root";
+
+		String query = "insert into student_data value (4,"aa");
+				
+		
+	}
+	
+}

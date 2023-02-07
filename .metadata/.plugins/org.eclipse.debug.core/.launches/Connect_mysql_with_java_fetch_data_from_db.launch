@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Connect_Java_With_JDBC/src/com/jdbc_java/Connect_mysql_with_java_fetch_data_from_db.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.jdbc_java.Connect_mysql_with_java_fetch_data_from_db"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Connect_Java_With_JDBC"/>
+</launchConfiguration>

@@ -1,0 +1,25 @@
+package com.jdbc_java;
+
+
+import java.sql.*;
+
+
+public class Connect_mysql_with_java {
+	
+	public static void main(String[] args) throws Exception{
+		
+		
+		String url="";
+		String uname="root";
+		String pass="root";
+		
+		Class.forName("com.mysql.jdbc.Driver");		//load driver
+		
+		Connection con= DriverManager.getConnection(url,uname,pass) ;		//connection
+		
+		
+		
+		//select username from java_sql_connection where uid=
+		
+	}
+}

@@ -1,0 +1,25 @@
+
+
+1>load Driver
+
+	class.forName("com.mysql.jdbc.Driver");	
+
+2>Create Connection
+	Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/database_name","user_name","password");
+
+3>Create Query Statement(for simple query), preparedStatement (for dynamic query),CallableStatement(for running store procedure)
+	
+
+
+
+4
+
+
+
+
+5
+
+
+
+
+6

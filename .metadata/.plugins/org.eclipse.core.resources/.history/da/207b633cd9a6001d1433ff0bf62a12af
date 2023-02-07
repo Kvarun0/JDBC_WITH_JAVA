@@ -1,0 +1,32 @@
+
+
+1>load Driver
+
+	class.forName("com.mysql.jdbc.Driver");	
+
+2>Create Connection
+	Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/database_name","user_name","password");
+
+3>Create Query Statement(for simple query), preparedStatement (for dynamic query),CallableStatement(for running store procedure)
+	
+	String query="select * from student"
+	
+	Statement st=con.createStatement();
+	
+	st.executeUpdate();		-- when we simple not need data from db 
+	st.executeQuery();		-- when we need to fetch data from db use this
+	
+	
+	PreparedStatement ps=con.preparedS();
+	
+	ResultSet rs=st.executeQuery(); //fetch data from db and set it into rs..
+	
+
+4> Process the data
+	
+	while(rs.next()){
+		
+		int id = rs.getInt(rowNo,rowName);
+		
+		String name= rs.getString(rowNo, rowName);
+	}
